@@ -39,7 +39,7 @@
       state: enabled
     notify: firewall reload
 
-handlers:
+  handlers:
   - name: firewall reload
     ansible.builtin.systemd:
       name: firewalld
