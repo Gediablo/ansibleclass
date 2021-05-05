@@ -31,7 +31,7 @@
       msg: httpd is running
     when: httpd_status.state == "started"
 
-   - name: Configure firewall
+  - name: Configure firewall
     ansible.posix.firewalld:
       zone: public
       service: http
