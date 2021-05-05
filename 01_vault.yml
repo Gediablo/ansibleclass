@@ -1,7 +1,7 @@
 ---
 - hosts: windowsservers
   collections:
-   - ansible.windows
+    - ansible.windows
   vars_files:
     - ~/secret.yml
   vars:
